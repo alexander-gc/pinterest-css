@@ -1,16 +1,16 @@
 .container
 {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 250px);
     grid-gap: 5px;
     justify-content: center;
+    grid-template-columns: repeat(auto-fill, 250px);
 }
 
 .item
 {
     border-radius: 5px;
     padding: 10px;
-    background: #f2f2f2;
+    /*background: #f2f2f2;*/
 }
 
 .item img
@@ -37,3 +37,48 @@
 {
     grid-row-end: span 1;
 }
+
+.container .header
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.container .header .derecho
+{
+    color: gray;
+    display: inline-block;
+
+}
+
+input
+{
+    font-size: 28px;
+    width: 500px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+img
+{
+    max-width: 20px;
+}
+
+.u-inline
+{
+    display: inline-block;
+
+}
+
